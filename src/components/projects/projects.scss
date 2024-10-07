@@ -1,0 +1,150 @@
+.projects{
+background-color: white;
+height: 100%;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+
+.textContainer{
+Color: black;
+align-self: flex-end;
+display: flex;
+align-items: center;
+gap: 20px;
+
+h1{
+
+    font-style: italic;
+    font-size: 3rem;
+    margin-top: 95px;
+    margin-right: 30px;
+    
+}
+
+}
+
+.tagline{
+    position: absolute;
+    bottom: -1895px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2rem;
+    
+}
+
+.main-text{
+
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.memories{
+
+    color: #c63232;
+    font-style: italic;
+
+}
+
+.for{
+
+    color: gray;
+    font-style: normal;
+    margin-left: 10px;
+
+}
+
+.eternity{
+color: #c63232;
+font-size: 3.2rem;
+font-weight: 400;
+margin-top: -20px;
+
+}
+
+.carouselContainer {
+    //flex: 1 1 calc(33% - 20%);
+    margin-bottom: 20px;
+
+}
+
+.carouselContainer1{
+    //flex: 1 1 calc(33% - 20%);
+    margin-bottom: 20px;
+    margin-left: -590px;
+}
+
+.carouselContainer2{
+    //flex: 1 1 calc(33% - 20%);
+    margin-bottom: 20px;
+    margin-left: 75px;
+    margin-top: -618px;
+}
+
+.carouselContainer3{
+    //flex: 1 1 calc(33% - 20%);
+    margin-bottom: 20px;
+    margin-left: 700px;
+    margin-top: -618px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 120%;
+    max-width: 500px;
+   // max-height: 1100px;
+    margin-left: 600px;
+    will-change: transform;
+
+    &__track-container {
+      overflow: hidden;
+      position: relative;
+    }
+
+    &__track {
+      display: flex;
+      transition: transform 0.3s ease-in-out;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 1px;
+    }
+
+    &__slide {
+        flex-shrink: 0;
+        width: 100%;
+      img {
+        width: 100%;
+        max-height: 600px;
+        object-fit: cover;
+        display: block;
+    
+
+      }
+    }
+
+    &__button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      color: #c63232;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      padding: 1rem;
+
+      &--left {
+        left: 10px;
+      }
+
+      &--right {
+        right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.services{
+    font-family: 'oswald', sans-serif; 
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to right, #c7c1c1, white);
+  
+
+    .titleContainer {
+      color: white;
+      font-size: 100px;
+      font-weight: 400;
+      margin-top: 85px;
+      margin-left: 30px;
+      z-index: 1;
+    
+      span {
+        font-weight: 400;
+      }
+    
+    }
+    .textContainer1 {
+      flex: 2;
+      display: flex;
+      margin-left: 600px;
+      gap: 100px;  
+    
+      .box {
+        padding: 20px;  
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;  
+        align-items: flex-start; 
+        
+        .span1 {
+          color: #c63232;
+          font-size: 4rem;
+          font-weight: 400;
+          margin-bottom: 15px;  
+        }
+    
+        .span2 {
+          color: black;
+          font-weight: 400;
+          font-size: 2rem;
+          margin-bottom: 5px;  
+        }
+    
+        h3 {
+          color: black;
+          margin: 5px 0; 
+        }
+      }
+    }
+
+.imageMove {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  img {
+    width: 1300px;  
+    height: auto;  
+    position: absolute;  
+    transition: transform 0.3s ease-out;
+
+  }
+
+
+  .textContainer2{
+   
+    margin-left: 1700px;
+    padding: 0px;  
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start; 
+
+
+   .iso{
+    color: #c63232;
+    font-size: 3rem;
+    margin-bottom: -25px;
+   
+  }
+
+   .photo {
+    color: #c63232;
+    font-size: 3rem;
+    margin-bottom: -25px;
+   
+ 
+  }
+
+    .graphy{
+    color: #c63232;
+    font-size: 3rem;
+ 
+  }
+
+  .lets{
+    color: black;
+    font-size: 1rem;
+
+
+  }
+
+}
+}
+
+
+.move1 { bottom: 70%; left: 20%; }
+.move2 { bottom: -250%; left: 20%; }
+.move3 { bottom: -200%; left: 0%; }
+.move4 { bottom: 700%; left: -20%; }

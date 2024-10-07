@@ -1,0 +1,21 @@
+.navbar{
+    height: 100px;
+    background: linear-gradient(to right, #c7c1c1, white);
+
+    .wrapper{
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        
+    span{
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    }
+
+}

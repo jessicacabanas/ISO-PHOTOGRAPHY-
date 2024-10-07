@@ -1,0 +1,30 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+}
+
+body{
+    background-color: #c7c1c1;
+    color: white;
+}
+
+A{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
